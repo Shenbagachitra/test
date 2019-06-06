@@ -5,7 +5,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:1001/eureka
 welcome:
-  message: "Wipro"
+  message: "Acc"
+welcome:
+  message2: "Cognizant"  
 management:
   server:
     port: 3001
