@@ -6,3 +6,10 @@ eureka:
       defaultZone: http://localhost:1001/eureka
 welcome:
   message: "Cognizant"
+management:
+  server:
+    port: 3001
+  endpoints:
+    web:
+      exposure:
+        includes: "*"
